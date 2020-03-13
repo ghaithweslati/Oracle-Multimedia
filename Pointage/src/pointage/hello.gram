@@ -1,7 +1,0 @@
-#JSGF V1.0;
-
-grammar grammaire;
-
-public <greet> = ( quitter | lancer | ouvrir | fermer)(application | aide | horaire | fenêtre) ;
-public <command> =(gestion | liste | ajout | pointage)(privilèges | matières | pointages | temps | personnel | séance | professeur | autre | absence);
-public <quit> = (sortir | arrêter);
